@@ -1,4 +1,4 @@
-package securityPractice.domain.user.dto.response;
+package securityPractice.domain.member.dto.response;
 
 import lombok.Builder;
 

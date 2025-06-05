@@ -1,4 +1,4 @@
-package securityPractice.domain.user.dto.request;
+package securityPractice.domain.member.dto.request;
 
 
 import jakarta.validation.constraints.NotBlank;

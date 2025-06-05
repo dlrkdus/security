@@ -17,3 +17,13 @@ spring:
       hibernate:
         format_sql: true     # ?? ?? ?? ???
         dialect: org.hibernate.dialect.MySQL8Dialect
+
+  data:
+    redis:
+      host: localhost
+jwt:
+  secret: your-secret-key
+  access-token-validity: 3600000  # 1 hour
+  refresh-token-validity: 86400000  # 1 day
+
+
